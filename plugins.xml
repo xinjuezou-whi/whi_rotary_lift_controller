@@ -1,0 +1,9 @@
+<library path="whi_rotary_lift_controller">
+  <class name="whi_rotary_lift_controller/WhiRotaryLiftController"
+         type="whi_rotary_lift_controller::WhiRotaryLiftController"
+         base_class_type="controller_interface::ControllerInterface">
+  <description>
+    The rotary lift controller transforms position messages into signals for each rotary and lift joint
+  </description>
+  </class>
+</library>
